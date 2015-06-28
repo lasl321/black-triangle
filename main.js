@@ -1,13 +1,13 @@
 'use strict';
 
-let angle = 0;
+import BlackTriangle from "./BlackTriangle";
 
-const blackTriangle = document.querySelector('.black-triangle');
+const triangle = new BlackTriangle('#triangle');
 
 window.setInterval(
   () => {
-    angle = (angle + 1) % 360;
-    blackTriangle.style.transform = `rotate(${angle}deg)`;
+    triangle.rotate(1);
+    triangle.render();
   },
   20
 );

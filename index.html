@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Spinning Black Triangle</title>
+    <title>Webpack Black Triangle</title>
   </head>
   <body>
     <style>
@@ -12,7 +12,7 @@
         margin: 0;
       }
 
-      .black-triangle {
+      .BlackTriangle {
         position: absolute;
         height: 100%;
         left: 0;
@@ -21,7 +21,7 @@
         overflow: hidden;
       }
 
-      .black-triangle-inner {
+      .BlackTriangle-inner {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -32,7 +32,7 @@
         border-radius: 100%;
       }
 
-      .black-triangle-inner:before {
+      .BlackTriangle-inner:before {
         position:absolute;
         z-index: 1;
         top: 50%;
@@ -47,8 +47,8 @@
         border-color: transparent transparent #000 transparent;
       }
     </style>
-    <div class="black-triangle">
-      <div class="black-triangle-inner"></div>
+    <div id="triangle" class="BlackTriangle">
+      <div class="BlackTriangle-inner"></div>
     </div>
     <script src="main.js"></script>
   </body>
