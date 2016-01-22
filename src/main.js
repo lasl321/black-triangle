@@ -12,4 +12,4 @@ window.setInterval(
   20
 );
 
-console.log('hello world 2');
+console.log('Change me for reload');
