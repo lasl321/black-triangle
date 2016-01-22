@@ -1,0 +1,28 @@
+{
+    "name": "black-triangle",
+    "version": "1.0.0",
+    "description": "Code based on article [here](http://jamesknelson.com/webpack-made-simple-build-es6-less-with-autorefresh-in-26-lines/)",
+    "main": "index.js",
+    "dependencies": {
+        "babel-loader": "^6.2.1",
+        "babel-preset-es2015": "^6.3.13",
+        "babel-polyfill": "^6.3.14",
+        "webpack": "^1.12.11",
+        "webpack-dev-server": "^1.14.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack-dev-server .\\src\\main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lasl321/black-triangle.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lasl321/black-triangle/issues"
+    },
+    "homepage": "https://github.com/lasl321/black-triangle#readme"
+}
