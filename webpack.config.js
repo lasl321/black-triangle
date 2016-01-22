@@ -11,7 +11,8 @@ module.exports = {
         publicPath: '/scripts',
         filename: 'foo.js'
     },
-    devtool: 'source-map', devServer: {
+    devtool: 'source-map',
+    devServer: {
         contentBase: "./src"
     },
     module: {
